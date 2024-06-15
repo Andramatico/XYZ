@@ -129,6 +129,7 @@ body {
 .contact:hover {
     background-color: rgb(99, 32, 32);
 }
+
 /* Links*/
 a {
     color: #0060B6;
@@ -145,15 +146,13 @@ a:hover {
     background-color: #9c201b;
     border: 5px solid #555;
 }
-.textprices{
-    font-family:Helvetica;
+
+.textprices {
+    font-family: Helvetica;
     color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     font-size: small;
 }
-
-
-
 
 
 /* Tabela */
@@ -166,10 +165,12 @@ a:hover {
     color: silver;
 
 }
-td{
+
+td {
     border: 2px solid #fffbfb;
 }
-th{
+
+th {
     border: 2px dashed #fffbfb;
 }
 
@@ -181,22 +182,24 @@ th{
     color: rgb(5, 5, 5);
     padding: 15px 32px;
     text-align: center;
-    font-family: 'Times New Roman' ;
+    font-family: 'Times New Roman';
     display: inline-block;
     font-size: 16px;
     transition: 0.3s;
 }
-.button:hover{
+
+.button:hover {
     background-color: #b38181;
 }
 
 /* Formulario*/
-.formbackground{
+.formbackground {
     margin-top: -20px;
     background-color: silver;
     border: #000 solid;
 }
-  input[type=text] {
+
+input[type=text] {
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -204,19 +207,21 @@ th{
     border: 2px solid #ccc;
     border-radius: 10px;
     background-color: #f8f8f8;
-  }
-  select {
+}
+
+select {
     width: 20%;
     padding: 16px 20px;
     border: none;
     border-radius: 10px;
     text-shadow: 5px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1px 0 #ffffff, -1px 0 0 #ffffff;
     background-color: #f1f1f1;
-    color:black;
+    color: black;
     font-family: georgia;
     font-size: 90%;
-  }
-  textarea {
+}
+
+textarea {
     width: 50%;
     height: 150px;
     padding: 12px 20px;
@@ -227,11 +232,9 @@ th{
     resize: none;
 }
 
-label{
+label {
     color: black;
     text-shadow: 5px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1px 0 #ffffff, -1px 0 0 #ffffff;
     font-size: 100%;
     font-family: Georgia;
 }
-
-
