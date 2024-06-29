@@ -131,12 +131,12 @@ body {
 }
 
 /* Links*/
-.contactlink {
+.contact-link {
     color: rgb(0, 96, 182);
     text-decoration: none;
 }
 
-.contactlink:hover {
+.contact-link:hover {
     color: rgb(0, 160, 198);
     text-decoration: none;
 }
@@ -147,7 +147,7 @@ body {
     border: 5px solid rgb(85, 85, 85);
 }
 
-.textprices {
+.text-prices {
     font-family: Helvetica;
     color: rgb(255,255,255);
     text-shadow: 1px 0 0 rgb(0,0,0), 0 -1px 0 rgb(0,0,0), 0 1px 0 rgb(0,0,0), -1px 0 0 rgb(0,0,0);
@@ -156,7 +156,7 @@ body {
 
 
 /* Tabela */
-.tableprice {
+.table-price {
     border: 5px solid rgb(255,255,255);
     border-collapse: collapse;
     margin-left: 30%;
@@ -166,11 +166,11 @@ body {
 
 }
 
-td {
+.price-d {
     border: 2px solid rgb(255,255,255);
 }
 
-th {
+.price-th {
     border: 2px dashed rgb(255,255,255);
 }
 
@@ -193,13 +193,13 @@ th {
 }
 
 /* Formulario*/
-.formbackground {
+.form-background {
     margin-top: -20px;
     background-color: rgb(192, 192, 192);
     border: rgb(0,0,0) solid;
 }
 
-.forminput[type=text] {
+.for-input[type=text] {
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -209,7 +209,7 @@ th {
     background-color: rgb(248, 248, 248);
 }
 
-.formselect {
+.form-select {
     width: 20%;
     padding: 16px 20px;
     border: none;
@@ -221,7 +221,7 @@ th {
     font-size: 90%;
 }
 
-.textmessage {
+.text-message {
     width: 50%;
     height: 150px;
     padding: 12px 20px;
@@ -239,9 +239,9 @@ label {
     font-family: Georgia;
 }
 
-/* Resposibilidade */
+/* Responsividade */
 
-@media only screen and (max-width: 478px) {
+@media only screen and (max-width: 478px) and (min-width:375px) {
     .logo{
         display: block;
         width: 100%;
